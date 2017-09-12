@@ -177,7 +177,7 @@
   background: #6ed3ff;
   background: linear-gradient(to bottom right, #6ed3ff, #41b7fb);
 }
-.content-r .select-type ul li.active,.content-r .select-type ul li.hover {
+.content-r .select-type ul li.active,.content-r .select-type ul li:hover {
   box-shadow: none;
   background: #989a9f;
 }
