@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  color: #3394db;
+}
+.pic-box {
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 100%;
+  margin: 0 auto;
+  height: calc( 100% - 200px);
+  background-color: #FFFFFF;
+}
+.btn-box {
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: none;
+}
+.btn-box a {
+  line-height: 32px;
+  border-radius: 5px;
+  width: 120px;
+  background: #09f;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}

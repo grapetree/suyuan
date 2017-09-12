@@ -1,0 +1,175 @@
+.blacklist-items {
+  min-height: 100%;
+}
+.container-box .items1,
+.container-box .items2 {
+  width: 47%;
+}
+.container-box .items2 {
+  margin-left: 6%;
+}
+.container-box .myChart1,
+.container-box .myChart2 {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.container-box .circle {
+  width: 200px;
+  box-sizing: border-box;
+  padding-top: 55px;
+  height: 200px;
+  margin: 0 50px;
+  background: url(../../img/circle-bg.png) no-repeat center;
+  background-size: cover;
+}
+.container-box .myChart1-one,
+.container-box .myChart1-two {
+  padding-top: 55px;
+  box-sizing: border-box;
+  width: 50%;
+}
+.container-box .circle-num {
+  font-size: 40px;
+  width: 190px;
+  font-weight: bolder;
+  display: block;
+  color: #ff8100;
+}
+.container-box .text-gradient {
+  display: inline-block;
+  color: orange;
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#ff5700), to(#ff9f00));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container-box .circle-time {
+  font-size: 14px;
+  color: #4b715d;
+  margin-left: 8px;
+}
+.container-box .circle-type,
+.container-box .rate {
+  color: #496d99;
+}
+.container-box .rate {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.container-box .rate span {
+  margin-left: 10px;
+  color: #ff7400;
+}
+.container-box .myChart3 {
+  height: 400px;
+  width: 100%;
+}
+.container-box .myChart4,
+.container-box .myChart5 {
+  width: 50%;
+  height: 400px;
+}
+.container-box .myChart5 svg {
+  width: 100%;
+  height: 100%;
+}
+.container-box .myChart4 {
+  text-align: center;
+  padding: 60px 0;
+  box-sizing: border-box;
+}
+.container-box .myChart4 .echarts-wrap {
+  width: 340px ;
+  height: 203px;
+  margin: 0 auto;
+  background: url(../../img/rate.png) no-repeat center top;
+  position: relative;
+}
+.container-box .myChart4 .usage-rate {
+  width: 134px;
+  height: 162px;
+  margin: 0 auto;
+  padding-top: 45px;
+  color: #496d99;
+}
+.container-box .myChart4 .usage-rate p.rate-num {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border-radius: 60px;
+  background: #2d69df;
+  /* 一些不支持背景渐变的浏览器 */
+  background: -moz-linear-gradient(top, #2d69df, #23a8fd);
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#2d69df), to(#23a8fd));
+  background: -o-linear-gradient(top, #2d69df, #23a8fd);
+  line-height: 120px;
+  font-size: 32px;
+  color: #fff;
+  box-shadow: 0 0 3px 3px #fff, 0 5px 10px 2px rgba(199, 233, 255, 0.7);
+  margin-bottom: 15px;
+}
+.container-box .myChart4 .init-num {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  color: #496d99;
+  font-size: 14px;
+}
+.container-box .myChart4 .end-num {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  color: #496d99;
+  font-size: 14px;
+}
+.container-box .myChart4 .total-capacity span {
+  color: #496d99;
+  font-size: 14px;
+}
+.container-box .myChart4 .total-capacity span.capacity-num {
+  color: #ff7400;
+}
+.container-box .myChart4 .icon {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 80px;
+  bottom: 30px;
+  border-radius: 7px;
+  background: #ff5d00;
+  /* 一些不支持背景渐变的浏览器 */
+  background: -moz-linear-gradient(top, #ff5d00, #ffa400);
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ff5d00), to(#ffa400));
+  background: -o-linear-gradient(top, #ff5d00, #ffa400);
+  box-shadow: 0 0 2px 4px #fff;
+  transform-origin: 90px -54px;
+}
+.container-box .myChart4 .icon-num {
+  white-space: nowrap;
+  font-size: 16px;
+  color: #ff7400;
+  position: absolute;
+  left: -42px;
+  top: 10px;
+  transform-origin: center;
+}
+.container-box .myChart5 h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #577399;
+}
+.container-box .circles {
+  stroke: rgba(255, 255, 0, 0.5);
+  stroke-width: 10px;
+}
+.container-box .myChart6 {
+  width: 26%;
+  height: 320px;
+  margin-top: 80px;
+  margin-left: 115px;
+  position: relative;
+}
+.container-box .myChart7 {
+  width: 65%;
+  height: 400px;
+}

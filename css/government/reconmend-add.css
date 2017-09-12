@@ -1,0 +1,61 @@
+.add-wrapper {
+  width: 600px;
+  margin-left: 340px;
+}
+.add-wrapper li {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  height: auto;
+  margin-bottom: 15px;
+}
+.add-wrapper li .l-title {
+  font-size: 14px;
+  color: #577399;
+  line-height: 30px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: 120px;
+}
+.add-wrapper li .layui-form-select {
+  width: 70%;
+  display: inline-block;
+}
+.add-wrapper li .c-input {
+  width: 70%;
+}
+.add-wrapper .c-area {
+  min-height: 100px;
+  width: 69.5%;
+}
+.add-wrapper .save-cancel {
+  text-align: center;
+  margin-top: 30px;
+}
+.add-wrapper .save-cancel .save-post {
+  margin-left: 20px;
+}
+.add-wrapper .save-cancel span,
+.add-wrapper .save-cancel a {
+  display: inline-block;
+}
+.add-wrapper .test-time {
+  position: relative;
+  width: 32.8%;
+}
+.add-wrapper .test-time .cal {
+  position: absolute;
+  top: 7px;
+  right: 5px;
+  width: 16px;
+  height: 16px;
+  background: url(../../img/calender.png);
+}
+.add-wrapper .test-time .c-input {
+  width: 100%;
+}
+.add-wrapper .data-line {
+  display: block;
+  padding: 0 10px;
+}

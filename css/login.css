@@ -1,0 +1,222 @@
+body {
+  min-width: 1280px;
+}
+.main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #0069c7 url('../img/loginBg.png') center no-repeat;
+  background-size: cover;
+}
+.main .logo {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+.main .logo .logoIco,
+.main .logo .title {
+  display: inline-block;
+}
+.main .logo .logoIco {
+  width: 225px;
+  height: 70px;
+  background: url('../img/loginLogo.png') center no-repeat;
+}
+.main .logo .title {
+  position: relative;
+  color: #80d9ff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 36px;
+}
+.main .logo .title::after {
+  position: absolute;
+  content: '';
+  left: -18px;
+  height: 70px;
+  width: 2px;
+  background: url('../img/loginSlide.png') center no-repeat;
+}
+.main .loginbox {
+  position: absolute;
+  top: calc(50vh - 181px);
+  right: 15%;
+  width: 362px;
+  height: 385px;
+  border-radius: 2px;
+  background: #f5faff;
+}
+.main .loginbox .loginTitle {
+  height: 72px;
+  line-height: 72px;
+  color: #25a8fe;
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+.main .loginbox .formCon {
+  padding: 34px;
+}
+.main .loginbox li {
+  position: relative;
+  margin-bottom: 28px;
+}
+.main .loginbox li input {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 30px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 14px;
+}
+.main .loginbox li input:focus {
+  border-color: #7ac9ff;
+}
+.main .loginbox li .iconfont {
+  position: absolute;
+  line-height: 38px;
+  left: 10px;
+  font-weight: 600;
+  color: #a1b4c0;
+}
+.main .loginbox li .layui-form-checkbox span {
+  height: auto;
+  color: #8f9092;
+}
+.main .loginbox li .layui-form-checked[lay-skin=primary] i {
+  border-color: #019dfc;
+  background-color: #019dfc;
+}
+.main .loginbox li .forget {
+  color: red;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  float: right;
+}
+.main .loginbox li .login {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 3px;
+  background: #019dfc;
+}
+.main .loginbox li:hover input {
+  border-color: #7ac9ff;
+}
+.main .loginbox li:hover .iconfont {
+  color: #34affe;
+}
+.main .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #005ed8;
+}
+.main .footer p {
+  text-align: center;
+  color: #4d83e4;
+  font-size: 12px;
+}
+.main .footer p.firstLine {
+  margin: 10px;
+}
+.forgot-password-page {
+  margin-top: 50px;
+  padding-top: 50px;
+  text-align: center;
+  border-top: 1px solid #9dd5ff;
+}
+.forgot-password-page .dsplay-none {
+  display: none;
+}
+.forgot-password-page .layui-inline {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.forgot-password-page span {
+  display: inline-block;
+}
+.forgot-password-page .l-title {
+  width: 15%;
+  text-align: right;
+  color: #333;
+  font-size: 16px;
+}
+.forgot-password-page .get-code,
+.forgot-password-page .get-code-hide {
+  border: 1px solid #ccc;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  cursor: pointer;
+  width: 90px;
+  text-align: center;
+  background: #eee;
+  color: #0b499e;
+  margin-left: 5px;
+}
+.forgot-password-page .get-code-hide {
+  visibility: hidden;
+}
+.forgot-password-page .code-pic,
+.forgot-password-page .code-pic-hide {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  margin-left: 5px;
+}
+.forgot-password-page .code-pic img,
+.forgot-password-page .code-pic-hide img {
+  height: 100%;
+}
+.forgot-password-page .code-pic-hide {
+  visibility: hidden;
+}
+.forgot-password-page .layui-input {
+  display: inline-block;
+  width: 25%;
+}
+.forgot-password-page .step {
+  width: 850px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.forgot-password-page .step li {
+  float: left;
+  font-size: 25px;
+  line-height: 50px;
+  color: #777;
+  margin: 10px 40px;
+}
+.forgot-password-page .step li.current {
+  color: #333;
+}
+.forgot-password-page .way {
+  margin: 50px auto;
+}
+.forgot-password-page .way li {
+  height: 40px;
+  margin-top: 10px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #0066FF;
+  cursor: pointer;
+}
+.forgot-password-page .next-btn1,
+.forgot-password-page .next-btn2,
+.forgot-password-page .next-btn3 {
+  text-align: center;
+  margin-top: 30px;
+}

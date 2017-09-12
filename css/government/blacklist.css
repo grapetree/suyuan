@@ -1,0 +1,241 @@
+.oneThird.textcenter,
+.oneThird.oneThirdyj {
+  text-align: center;
+}
+.oneThird.textcenter span:nth-child(1),
+.oneThird.oneThirdyj span:nth-child(1) {
+  margin-right: 20px;
+}
+.oneThird.w30 {
+  width: 30%;
+}
+.oneThird.w10 {
+  width: 10%;
+}
+.oneThird .icon-xunhuan {
+  font-size: 24px;
+  font-weight: bold;
+  color: #197AD0;
+}
+.oneThird .setoption {
+  font-size: 16px;
+  font-style: normal;
+  color: #197AD0;
+  cursor: pointer;
+}
+.oneThird span {
+  display: inline-block;
+}
+.oneThird span.addNew {
+  cursor: pointer;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  width: 94px;
+  text-align: center;
+  background: #2D9BEB;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.icon-quxiao {
+  color: #758aa9;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.icon-tongguo {
+  font-size: 19px;
+}
+#LAY_layuipro {
+  background: #fff;
+}
+#LAY_layuipro textarea {
+  width: 540px;
+  box-sizing: border-box;
+  margin: 30px;
+  height: 200px;
+}
+#LAY_layuipro textarea.blackList {
+  width: 90%;
+}
+#LAY_layuipro .cancel {
+  margin-left: 20px;
+}
+#LAY_layuipro .cancel span {
+  margin-right: 20px;
+}
+.tablewrap table tbody tr td i {
+  padding: 0 5px;
+  cursor: pointer;
+  color: #005ED8;
+}
+.tablewrap table tbody tr td i.icon-shanchu {
+  font-size: 18px;
+}
+.add-item li .layui-form-select {
+  width: 70%;
+}
+.add-wrapper {
+  width: 600px;
+  margin-left: 340px;
+}
+.save-cancel {
+  text-align: center;
+}
+.save-cancel span {
+  display: inline-block;
+}
+.form-item .add-wrapper .c-input {
+  width: 88%;
+}
+.form-item .consumers .layui-form-select {
+  width: 69%;
+}
+.form-item li .big-title {
+  width: 90px;
+}
+.mar30 {
+  margin-left: 30px;
+}
+.tablewrap table tbody tr td a.icon-chakan {
+  color: #005ED8;
+}
+.form-item .oneThird.c-larger {
+  width: 50%;
+}
+.form-item .oneThird.c-larger .l-title {
+  width: auto;
+}
+.form-item .oneThird.textleft {
+  text-align: left;
+}
+.form-item .oneThird.textleft .icon-sousuo {
+  display: inline-block;
+}
+.form-item li .l-title {
+  text-align: left;
+}
+.form-item3 li .l-title {
+  text-align: right;
+}
+.form-item3 li .layui-form-select {
+  width: 71%;
+}
+.form-item li.w30 .layui-form-select {
+  width: 60%;
+}
+.form-item li .w86 {
+  width: 86px;
+}
+#adjunct {
+  width: 690px;
+  height: 520px;
+  margin: 20px;
+}
+#adjunct h2 {
+  line-height: 40px;
+  height: 40px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.adjunct-small {
+  position: relative;
+  width: 102px;
+  height: 422px;
+  border: 1px solid #b3daf9;
+  margin-right: 10px;
+  border-radius: 5px;
+  overflow-y: hidden;
+}
+.adjunct-small li {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.adjunct-small li.active {
+  background: #def1ff;
+}
+.adjunct-small img {
+  display: inline-block;
+  margin-top: 10px;
+}
+.adjunct-small span {
+  line-height: 20px;
+  height: 20px;
+}
+.adjunct-small .adjunct-prev {
+  position: absolute;
+  z-index: 6;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.8) url(../../img/prev.png) no-repeat top center;
+}
+.adjunct-small .adjunct-next {
+  position: absolute;
+  z-index: 5;
+  cursor: pointer;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.8) url(../../img/next.png) no-repeat bottom center;
+}
+.adjunct-big {
+  width: 572px;
+  height: 422px;
+  border: 1px solid #b3daf9;
+  background: #f8fcff;
+  text-align: center;
+}
+.adjunct-big img {
+  display: inline-block;
+  margin-top: 10px;
+}
+.tablewrap table tbody tr td img {
+  cursor: pointer;
+}
+.tablewrap table tbody tr td.imgsee img {
+  margin-right: 5px;
+}
+#adjunct {
+  display: none;
+}
+.search a {
+  color: #fff;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.form-item .adds-wrapper .c-input {
+  width: 70%;
+}
+.form-item .adds-wrapper .l-title {
+  text-align: left;
+  width: 120px;
+}
+.form-item li .test-time {
+  width: 70%;
+  position: relative;
+}
+.form-item li .test-time .c-input {
+  width: 100%;
+}
+.form-item li .test-time .cal {
+  background: url(../../img/calender.png);
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+.form-item .txt-align {
+  float: right;
+  text-align: right;
+}

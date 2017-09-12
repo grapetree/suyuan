@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN">
+<html>
+
+<head>
+    <title>发起被动召回</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="../../../libs/layui/css/layui.css" />
+    <link rel="stylesheet" href="../../../icon/iconfont.css" />
+    <link rel="stylesheet" href="../../../css/common.css" />
+    <link rel="stylesheet" href="../../../css/layout.css" />
+    <link rel="stylesheet" href="../../../css/form.css" />
+    <link rel="stylesheet" href="../../../css/table.css" />
+    <link rel="stylesheet" href="../../../css/government/reconmend-add.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-box cf"><a class="header-left" href=""><i class="logo"></i><span>农产品追溯监管与服务系统</span><b>政府端</b></a>
+            <div class="header-right">
+                <div class="user-info"><i class="user-logo"></i><span class="user-name">政府001</span></div>
+                <div class="person-set"><i class="person-set-logo"></i><a class="person-set-tit" href="../../forgotPassword.html">修改密码</a></div><a class="exit" href="../../login.html"><i class="person-set-logo"></i><span class="person-set-tit">退出            </span></a></div>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-list cf">
+            <li class="first"><a href="../../index/index/dataStatistics.html"><i class="produce-manage"></i><span>首页</span></a></li>
+            <!--li-->
+            <!--    a(href='../../retrospectiveSubject/plantingEnterprise/plantingEnterprise.html')-->
+            <!--        i.package-manage-->
+            <!--        span 追溯主体-->
+            <li><a href="../../industrialChainSupervision/plantingEnterprise/plantingEnterprise.html"><i class="ciculate-manage"></i><span>追溯监管</span></a></li>
+            <li><a href="../../qualitySafetyInspectionSupervision/companyOwnCheck/companyOwnCheck.html"><i class="sell-manage"></i><span>质量安全检测</span></a></li>
+            <li><a href="../../government/item/blacklist.html"><i class="quality-manage"></i><span>政府监督</span></a></li>
+            <li><a href="../../dataStatistics/inputUseStatistics/inputUseStatistics.html"><i class="data-statistics"></i><span>数据统计</span></a></li>
+            <li><a href="../../systemManagement/notice/notice.html"><i class="system-manage"></i><span>系统管理</span></a></li>
+        </ul>
+    </div>
+    <div class="poster">
+        <div class="poster-box">
+            <div class="poster-item"><i class="poster-icon"></i><span class="poster-text">通知：近日，农业部办公厅、财政部国家农业综合开发办公室联合发布了《关于推进农业全产业链开发创新示范工作的通知》。</span></div>
+            <div class="poster-item"><i class="poster-icon"></i><span class="poster-text">通知：近日，农业部办公厅、财政部国家农业综合开发办公室联合发布了《关于推进农业全产业链开发创新示范工作的通知》。</span></div>
+        </div>
+    </div>
+    <div class="main-body cf form-item">
+        <div class="details-content">
+            <h2 class="detiles-title">发起被动召回</h2>
+            <form class="layui-form">
+                <ul class="adds-wrapper add-wrapper cf">
+                    <li><span class="l-title">产品分类：</span><select name="interest" lay-filter="aihao" lay-verify="required"><option></option><option value="0">1</option><option value="1">2</option></select></li>
+                    <li><span class="l-title">产品名称：</span><input class="c-input c-input-w60" type="text" /></li>
+                    <li><span class="l-title">企业名称：</span><input class="c-input" type="text" /></li>
+                    <li><span class="l-title">批次：</span><input class="c-input" type="text" /></li>
+                    <li class="fl"><span class="l-title fl">召回时间：</span>
+                        <div class="test-time fl"><input class="c-input" type="text" onclick="layui.laydate({elem: this,  istime: true, format: 'YYYY-MM-DD '})" /><i class="cal"></i></div><span class="data-line fl">-</span>
+                        <div class="test-time fl"><input class="c-input" type="text" onclick="layui.laydate({elem: this,  istime: true, format: 'YYYY-MM-DD '})" /><i class="cal"></i></div>
+                    </li>
+                    <li><span class="l-title">文字描述：</span><textarea class="c-area borderRad border"></textarea></li>
+                    <li>
+                        <div class="save-cancel"><span class="search save" lay-submit="lay-submit">保存</span><span class="search save-post" lay-submit="lay-submit">保存并发送</span><a class="add cancel" href="./recallRegulation.html">取消</a></div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright Jusfoun.com © 2016-2017 河北遵化溯源大数据信息技术有限公司</p>
+        <p>技术支持 九次方大数据信息集团有限公司</p>
+    </div>
+</body>
+<script src="../../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="../../../libs/layui/layui.js"></script>
+<script src="../../../js/common.js"></script>
+<script src="../../../js/government/reconmend-add.js"></script>
+
+</html>

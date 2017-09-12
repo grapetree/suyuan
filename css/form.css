@@ -1,0 +1,338 @@
+.form-item {
+  padding-top: 5px;
+  margin-bottom: 25px;
+}
+.form-item .c-input {
+  width: 69%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #b3daf9;
+  background: #f8fcff;
+  padding: 0 6px;
+  box-sizing: border-box;
+}
+.form-item li {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+  height: 30px;
+}
+.form-item li .required {
+  margin-left: 10px;
+  color: red;
+  font-size: 14px;
+}
+.form-item li .l-title {
+  font-size: 14px;
+  color: #577399;
+  line-height: 30px;
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+}
+.form-item li .layui-form-radio {
+  margin-right: 96px;
+}
+.form-item li .layui-form-radio:last-child {
+  margin-right: 10px;
+}
+.form-item li .layui-input,
+.form-item li .layui-select {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  border-color: #b3daf9;
+  background: #f8fcff;
+  box-sizing: border-box;
+}
+.form-item li .layui-form-select {
+  width: 69%;
+  display: inline-block;
+}
+.form-item li .layui-form-select .layui-edge {
+  z-index: 10;
+  border-top-color: #047fe1;
+}
+.form-item li .layui-form-select dl {
+  top: 35px;
+  border: 1px solid #b4daf8;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.form-item li .layui-form-select dl dd {
+  line-height: 28px;
+  text-align: left;
+  color: #666;
+}
+.form-item li .layui-form-select dl dd.layui-this {
+  background-color: #cbe3f8;
+  color: #4b7abe;
+}
+.form-item li .start,
+.form-item li .end {
+  width: 31%;
+  position: relative;
+}
+.form-item li .start input,
+.form-item li .end input {
+  width: 100%;
+  font-size: 12px;
+}
+.form-item li .start .cal,
+.form-item li .end .cal {
+  position: absolute;
+  top: 7px;
+  right: 5px;
+  width: 16px;
+  height: 16px;
+  background: url(../img/calender.png);
+}
+.form-item li .line {
+  margin-top: 4px;
+}
+.form-item li .numstart,
+.form-item li .numend {
+  width: 36%;
+}
+.form-item li .numstart input,
+.form-item li .numend input {
+  width: 100%;
+  font-size: 12px;
+}
+.form-item .one {
+  width: 100%;
+  height: auto;
+}
+.form-item .one .w99 {
+  width: 99px;
+}
+.form-item .one .c-area {
+  width: calc(100% - 70px);
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #b3daf9;
+  background: #f8fcff;
+  border-radius: 5px;
+  height: 100px;
+  line-height: 20px;
+  padding: 0 10px;
+}
+.form-item .oneHarf {
+  width: 50%;
+}
+.form-item .oneHarf .w99 {
+  width: 99px;
+}
+.form-item .oneThird {
+  width: 33.33%;
+}
+.form-item .oneThird .w99 {
+  width: 99px;
+}
+.form-item .w46per {
+  width: 46%;
+}
+.form-item .w46per .country,
+.form-item .w46per .province,
+.form-item .w46per .city {
+  width: 24%;
+}
+.form-item .w46per .layui-form-select {
+  width: 100%;
+}
+.form-item .w20per {
+  width: 20%;
+}
+.alignR {
+  text-align: right;
+}
+.alignC {
+  text-align: center;
+}
+.reset {
+  cursor: pointer;
+  color: #007de3;
+  font-size: 14px;
+  margin-right: 20px;
+  height: 28px;
+  line-height: 28px;
+}
+.reset i {
+  font-style: normal;
+  font-size: 14px;
+}
+.add {
+  cursor: pointer;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  width: 94px;
+  margin-left: 20px;
+  text-align: center;
+  background: #2476d6;
+  background: -webkit-linear-gradient(to bottom, #499efd, #2476d6);
+  background: -moz-linear-gradient(to bottom, #499efd, #2476d6);
+  background: -ms-linear-gradient(to bottom, #499efd, #2476d6);
+  background: linear-gradient(to bottom, #499efd, #2476d6);
+  color: #fff;
+  border: 1px solid #008eff;
+  border-radius: 4px;
+}
+.add:hover {
+  color: #eee;
+}
+.add i {
+  font-style: normal;
+  font-size: 14px;
+}
+.add a {
+  color: #fff;
+}
+.add a:hover {
+  color: #eee;
+}
+.search {
+  cursor: pointer;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  width: 94px;
+  text-align: center;
+  background: #ff9601;
+  background: -webkit-linear-gradient(to bottom, #ffc319, #ff9e19);
+  background: -moz-linear-gradient(to bottom, #ffc319, #ff9e19);
+  background: -ms-linear-gradient(to bottom, #ffc319, #ff9e19);
+  background: linear-gradient(to bottom, #ffc319, #ff9e19);
+  color: #fff;
+  border: 1px solid #ff7b03 !important;
+  border-radius: 4px;
+}
+.search:hover {
+  color: #eee;
+}
+.search i {
+  font-style: normal;
+  font-size: 14px;
+}
+.saveDispatch {
+  cursor: pointer;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  width: 94px;
+  margin-left: 20px;
+  text-align: center;
+  background: #2da75e;
+  background: -webkit-linear-gradient(to bottom, #6ae17c, #2da75e);
+  background: -moz-linear-gradient(to bottom, #6ae17c, #2da75e);
+  background: -ms-linear-gradient(to bottom, #6ae17c, #2da75e);
+  background: linear-gradient(to bottom, #6ae17c, #2da75e);
+  color: #fff;
+  border: 1px solid #27c749;
+  border-radius: 4px;
+}
+.saveDispatch i {
+  font-style: normal;
+  font-size: 14px;
+}
+.form-item li.autoLine {
+  margin-bottom: 60px;
+  height: auto !important;
+  float: none;
+}
+.form-item li.autoLine .fileImg {
+  margin-right: 40px;
+}
+.form-item li.autoLine .fileName {
+  width: 270px;
+  color: #4b7abe;
+  margin-bottom: 30px;
+}
+.upload {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  width: 94px;
+  height: 28px;
+  line-height: 28px;
+  color: #3b94ff;
+  border: 1px solid #3b94ff;
+  border-radius: 5px;
+  background-color: #f8fcff;
+}
+.stayUpload {
+  cursor: pointer;
+  text-align: center;
+}
+.stayUpload::after {
+  display: inline-block;
+  content: '+';
+  color: #149853;
+  font-size: 100px;
+}
+.delFJ {
+  position: absolute;
+  bottom: -4px;
+  right: -9px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 100%;
+  background-color: #ff8302;
+}
+.delFJ::after {
+  content: 'x';
+}
+.layui-form-radio {
+  margin: 6px 39px 0 0;
+}
+.layui-form-radio span,
+.layui-form-radio i {
+  color: #038c4a;
+}
+.layui-form-radio i {
+  font-size: 12px;
+}
+.layui-form-radio:hover i,
+.layui-form-radioed i,
+.layui-form-radio:hover span,
+.layui-form-radioed span {
+  color: #fea50c !important;
+}
+.product-title {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #bdd9ca;
+}
+.product-title i {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  background: url("../img/titleicon.png") no-repeat;
+}
+.product-title span {
+  padding-left: 35px;
+  font-size: 16px;
+  color: #2aa161;
+  font-weight: bold;
+}
+.form-item li.textarea {
+  height: auto;
+}
+.form-item li.textarea textarea {
+  width: 82%;
+  float: left;
+  border: 1px solid #b3daf9;
+  border-radius: 5px;
+}
+.form-item li.textarea .l-title {
+  float: left;
+}

@@ -1,0 +1,850 @@
+html,
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 1280px;
+}
+.header {
+  height: 80px;
+}
+.navbar {
+  height: 46px;
+}
+.footer {
+  height: 42px;
+}
+.main-body {
+  min-height: calc(100vh - 193px);
+  position: relative;
+  box-sizing: border-box;
+  width: 1280px;
+  margin: 0 auto;
+}
+.content-box {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 226px;
+  margin-top: 20px;
+  padding: 0 0 25px 20px;
+  width: calc(1054px);
+  min-height: 600px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+}
+.header {
+  margin: 0 auto;
+  width: 1280px;
+  height: 80px;
+  line-height: 80px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.header .header-box .header-left {
+  float: left;
+}
+.header .header-box .header-left .logo {
+  width: 181px;
+  height: 51px;
+  float: left;
+  margin: 14px 14px 0 0px;
+  background: url(../img/logoy.png) no-repeat;
+}
+.header .header-box .header-left b {
+  color: #ff9e5c;
+  display: inline-block;
+  background: #fff3ce;
+  width: 58px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  transform: skew(-20deg);
+  font-weight: 400;
+  margin-top: 30px;
+}
+.header .header-box .header-left span {
+  float: left;
+  font-size: 24px;
+  color: #207dcc;
+  position: relative;
+  padding: 0 12px;
+}
+.header .header-box .header-left span:after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 30px;
+  background: linear-gradient(to bottom, rgba(173, 218, 191, 0), #addabf, rgba(173, 218, 191, 0));
+  position: absolute;
+  top: 25px;
+  left: 0px;
+}
+.header .header-box .header-right {
+  font-size: 14px;
+  float: right;
+}
+.header .header-box .header-right .user-info {
+  float: left;
+  cursor: pointer;
+  margin-right: 15px;
+  color: #e0ffa9;
+}
+.header .header-box .header-right .user-info .user-logo {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: url(../img/smile.png) no-repeat;
+  margin-right: 5px;
+  margin-top: 18px;
+}
+.header .header-box .header-right .user-info .user-name {
+  color: #666666;
+}
+.header .header-box .header-right .person-set {
+  color: #666666;
+  float: left;
+  padding: 0 15px;
+  cursor: pointer;
+  position: relative;
+}
+.header .header-box .header-right .person-set a {
+  color: #666;
+}
+.header .header-box .header-right .person-set .person-set-logo {
+  width: 20px;
+  height: 22px;
+  float: left;
+  margin-right: 5px;
+  margin-top: 30px;
+  background: url(../img/pwd.png) no-repeat;
+}
+.header .header-box .header-right .person-set:after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 16px;
+  background: #66b28c;
+  position: absolute;
+  top: 32px;
+}
+.header .header-box .header-right .person-set:after {
+  left: 0;
+}
+.header .header-box .header-right .person-set:before {
+  right: 0;
+}
+.header .header-box .header-right .exit {
+  float: left;
+  color: #666666;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header .header-box .header-right .exit .person-set-logo {
+  width: 20px;
+  height: 22px;
+  float: left;
+  margin-top: 32px;
+  margin-right: 5px;
+  background: url(../img/exit.png) no-repeat;
+}
+.navbar {
+  margin: 0 auto;
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  background: #085bc1;
+}
+.navbar .navbar-list {
+  width: 1020px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar .navbar-list li {
+  float: left;
+  padding-right: 30px;
+  position: relative;
+  cursor: pointer;
+  zoom: 1;
+}
+.navbar .navbar-list li .shadow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 20%;
+  height: 0;
+}
+.navbar .navbar-list li a {
+  display: block;
+  padding: 0 10px 0 35px;
+}
+.navbar .navbar-list li a i {
+  width: 24px;
+  height: 22px;
+  float: left;
+  margin: 14px 4px 0 0;
+}
+.navbar .navbar-list li a i.produce-manage {
+  background: url(../img/nav1.png) no-repeat;
+}
+.navbar .navbar-list li a i.data-statistics {
+  background: url(../img/nav3.png) no-repeat;
+}
+.navbar .navbar-list li a i.ciculate-manage {
+  background: url(../img/nav2.png) no-repeat;
+}
+.navbar .navbar-list li a i.sell-manage {
+  background: url(../img/nav4.png) no-repeat;
+}
+.navbar .navbar-list li a i.quality-manage {
+  background: url(../img/nav5.png) no-repeat;
+}
+.navbar .navbar-list li a i.system-manage {
+  margin: 12px 4px 0 0;
+  background: url(../img/nav6.png) no-repeat center;
+}
+.navbar .navbar-list li a span {
+  color: #fff;
+}
+.navbar .navbar-list li:before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 16px;
+  background: rgba(71, 150, 108, 0.5);
+  background: linear-gradient(to bottom, rgba(71, 150, 108, 0.5), #2b8df8, rgba(71, 150, 108, 0.5));
+  position: absolute;
+  top: 16px;
+  left: 0;
+}
+.navbar .navbar-list li.active,
+.navbar .navbar-list li:hover {
+  background: #0b499e;
+}
+.navbar .navbar-list li.active span,
+.navbar .navbar-list li:hover span {
+  color: #fff;
+}
+.navbar .navbar-list li:hover {
+  background: rgba(11, 73, 158, 0.5);
+}
+.navbar .navbar-list li.active:before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 16px;
+  background: transparent;
+}
+.navbar .navbar-list .first {
+  margin-left: 0;
+}
+.navbar .navbar-list .first:before {
+  display: none;
+}
+.leftbar {
+  display: inline-block;
+  width: 206px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  bottom: 24px;
+  border-radius: 5px;
+  border: 1px solid #b1dafa;
+}
+.leftbar .title {
+  height: 56px;
+  line-height: 56px;
+  background-image: url(../img/title_bg.png);
+  background-repeat: no-repeat;
+  background-position: 158px -4px;
+  background-color: #027745;
+  font-size: 16px;
+}
+.leftbar .title a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.leftbar .title a i {
+  float: left;
+  width: 24px;
+  height: 22px;
+  margin: 17px 7px 0 38px;
+  background: url(../img/icon0.png) no-repeat;
+}
+.leftbar .title a span {
+  float: left;
+  margin-left: 18px;
+}
+.leftbar .list li.item .itemTitle {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+}
+.leftbar .list li.item .itemTitle:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #c8def2;
+  background-image: -webkit-linear-gradient(to right, #fff, #c8def2, #fff);
+  background-image: -moz-linear-gradient(to right, #fff, #c8def2, #fff);
+  background-image: -o-linear-gradient(to right, #fff, #c8def2, #fff);
+  background-image: -ms-linear-gradient(to right, #fff, #c8def2, #fff);
+  background-image: linear-gradient(to right, #fff, #c8def2, #fff);
+}
+.leftbar .list li.item .itemTitle i {
+  float: left;
+  width: 22px;
+  height: 22px;
+  background: url(../img/leftbar.png) no-repeat;
+  margin: 13px 27px 0 40px;
+}
+.leftbar .list li.item .itemTitle i.icon1 {
+  background-position: 0 0;
+}
+.leftbar .list li.item .itemTitle i.icon2 {
+  background-position: -30px 0;
+}
+.leftbar .list li.item .itemTitle i.icon3 {
+  background-position: -63px 0;
+}
+.leftbar .list li.item .itemTitle i.icon4 {
+  background-position: -95px 0;
+}
+.leftbar .list li.item .itemTitle i.icon5 {
+  background-position: -125px 0;
+}
+.leftbar .list li.item .itemTitle i.icon6 {
+  background-position: -152px 0;
+}
+.leftbar .list li.item .itemTitle i.icon7 {
+  background-position: -180px 0;
+}
+.leftbar .list li.item .itemTitle i.icon8 {
+  background-position: -207px 0;
+}
+.leftbar .list li.item .itemTitle i.icon9 {
+  background-position: -235px 0;
+}
+.leftbar .list li.item .itemTitle span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.leftbar .list li.item .itemlist {
+  display: none;
+}
+.leftbar .list li.item .itemlist:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #cde1f3;
+  background-image: -webkit-linear-gradient(to right, #fff, #cde1f3, #fff);
+  background-image: -moz-linear-gradient(to right, #fff, #cde1f3, #fff);
+  background-image: -o-linear-gradient(to right, #fff, #cde1f3, #fff);
+  background-image: -ms-linear-gradient(to right, #fff, #cde1f3, #fff);
+  background-image: linear-gradient(to right, #fff, #cde1f3, #fff);
+}
+.leftbar .list li.item .itemlist li {
+  height: 50px;
+  line-height: 50px;
+}
+.leftbar .list li.item .itemlist li a {
+  color: #666;
+  margin-left: 50px;
+  position: relative;
+}
+.leftbar .list li.item .itemlist li a:before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 10px;
+  background: #666;
+  position: absolute;
+  top: 7px;
+  left: -15px;
+}
+.leftbar .list li.item .itemlist li:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #c8def2;
+  background-image: -webkit-linear-gradient(to right, #fff, #c8def2, #fff);
+  background-image: -moz-linear-gradient(to right, #fff, #c8def2, #fff);
+  background-image: -o-linear-gradient(to right, #fff, #c8def2, #fff);
+  background-image: -ms-linear-gradient(to right, #fff, #c8def2, #fff);
+  background-image: linear-gradient(to right, #fff, #c8def2, #fff);
+}
+.leftbar .list li.item .itemlist li:hover a,
+.leftbar .list li.item .itemlist li.active a {
+  color: #0096ff;
+  font-weight: bold;
+}
+.leftbar .list li.item .itemlist li:hover a:before,
+.leftbar .list li.item .itemlist li.active a:before {
+  background: #0096ff;
+}
+.leftbar .list li.item.active a.itemTitle,
+.leftbar .list li.item:hover a.itemTitle {
+  background: #047fe1;
+}
+.leftbar .list li.item.active a.itemTitle:after,
+.leftbar .list li.item:hover a.itemTitle:after {
+  background-image: none;
+  background-color: #047fe1;
+}
+.leftbar .list li.item.active a.itemTitle i.icon1,
+.leftbar .list li.item:hover a.itemTitle i.icon1 {
+  background-position: 0 -29px;
+}
+.leftbar .list li.item.active a.itemTitle i.icon2,
+.leftbar .list li.item:hover a.itemTitle i.icon2 {
+  background-position: -28px -29px;
+}
+.leftbar .list li.item.active a.itemTitle i.icon3,
+.leftbar .list li.item:hover a.itemTitle i.icon3 {
+  background-position: -56px -29px;
+}
+.leftbar .list li.item.active a.itemTitle i.icon4,
+.leftbar .list li.item:hover a.itemTitle i.icon4 {
+  background-position: -84px -29px;
+}
+.leftbar .list li.item.active a.itemTitle i.icon5,
+.leftbar .list li.item:hover a.itemTitle i.icon5 {
+  background-position: -115px -29px;
+}
+.leftbar .list li.item.active a.itemTitle i.icon6,
+.leftbar .list li.item:hover a.itemTitle i.icon6 {
+  background-position: -147px -29px;
+}
+.leftbar .list li.item.active a.itemTitle i.icon7,
+.leftbar .list li.item:hover a.itemTitle i.icon7 {
+  background-position: -180px -29px;
+}
+.leftbar .list li.item.active a.itemTitle i.icon8,
+.leftbar .list li.item:hover a.itemTitle i.icon8 {
+  background-position: -207px -29px;
+}
+.leftbar .list li.item.active a.itemTitle i.icon9,
+.leftbar .list li.item:hover a.itemTitle i.icon9 {
+  background-position: -235px -29px;
+}
+.leftbar .list li.item.active a.itemTitle span,
+.leftbar .list li.item:hover a.itemTitle span {
+  color: #fff;
+}
+.leftbar .list li.item.active .itemlist,
+.leftbar .list li.item:hover .itemlist {
+  background: #def1ff;
+}
+.leftbar .list li.item.active .itemlist li,
+.leftbar .list li.item:hover .itemlist li {
+  height: 50px;
+  line-height: 50px;
+}
+.leftbar .list li.item.active .itemlist li:after,
+.leftbar .list li.item:hover .itemlist li:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #c8def2;
+  background-image: -webkit-linear-gradient(to right, #def1ff, #c8def2, #def1ff);
+  background-image: -moz-linear-gradient(to right, #def1ff, #c8def2, #def1ff);
+  background-image: -o-linear-gradient(to right, #def1ff, #c8def2, #def1ff);
+  background-image: -ms-linear-gradient(to right, #def1ff, #c8def2, #def1ff);
+  background-image: linear-gradient(to right, #def1ff, #c8def2, #def1ff);
+}
+.leftbar1 .title a i {
+  background: url(../img/hdicon1.png) no-repeat;
+  background-position: 0 -32px;
+}
+.leftbar1 .title a span {
+  float: left;
+  margin-left: 18px;
+}
+.leftbar1 .list li.item .itemTitle i {
+  background: url(../img/leftbar1.png) no-repeat;
+  margin: 13px 27px 0 40px;
+}
+.leftbar1 .list li.item .itemTitle i.icon1 {
+  background-position: 0 0;
+}
+.leftbar1 .list li.item .itemTitle i.icon2 {
+  background-position: -29px 0;
+}
+.leftbar1 .list li.item .itemTitle i.icon3 {
+  background-position: -58px 0;
+}
+.leftbar1 .list li.item .itemTitle i.icon4 {
+  background-position: -87px 0;
+}
+.leftbar1 .list li.item .itemTitle i.icon5 {
+  background-position: -116px 0;
+}
+.leftbar1 .list li.item .itemTitle i.icon6 {
+  background-position: -145px 0;
+}
+.leftbar1 .list li.item .itemTitle i.icon7 {
+  background-position: -174px 0;
+}
+.leftbar1 .list li.item .itemTitle i.icon8 {
+  background-position: -203px 0;
+}
+.leftbar1 .list li.item.active a.itemTitle i.icon1,
+.leftbar1 .list li.item:hover a.itemTitle i.icon1 {
+  background-position: 0 -29px;
+}
+.leftbar1 .list li.item.active a.itemTitle i.icon2,
+.leftbar1 .list li.item:hover a.itemTitle i.icon2 {
+  background-position: -29px -29px;
+}
+.leftbar1 .list li.item.active a.itemTitle i.icon3,
+.leftbar1 .list li.item:hover a.itemTitle i.icon3 {
+  background-position: -58px -29px;
+}
+.leftbar1 .list li.item.active a.itemTitle i.icon4,
+.leftbar1 .list li.item:hover a.itemTitle i.icon4 {
+  background-position: -87px -29px;
+}
+.leftbar1 .list li.item.active a.itemTitle i.icon5,
+.leftbar1 .list li.item:hover a.itemTitle i.icon5 {
+  background-position: -116px -29px;
+}
+.leftbar1 .list li.item.active a.itemTitle i.icon6,
+.leftbar1 .list li.item:hover a.itemTitle i.icon6 {
+  background-position: -145px -29px;
+}
+.leftbar1 .list li.item.active a.itemTitle i.icon7,
+.leftbar1 .list li.item:hover a.itemTitle i.icon7 {
+  background-position: -174px -29px;
+}
+.leftbar1 .list li.item.active a.itemTitle i.icon8,
+.leftbar1 .list li.item:hover a.itemTitle i.icon8 {
+  background-position: -203px -29px;
+}
+.leftbar2 .title a i {
+  background: url(../img/hdicon1.png) no-repeat;
+  background-position: -32px -32px;
+}
+.leftbar2 .title a span {
+  float: left;
+  margin-left: 18px;
+}
+.leftbar2 .list li.item .itemTitle i {
+  background: url(../img/leftbar2.png) no-repeat;
+  margin: 13px 27px 0 25px;
+}
+.leftbar2 .list li.item .itemTitle i.icon1 {
+  background-position: 0 0;
+}
+.leftbar2 .list li.item .itemTitle i.icon2 {
+  background-position: -30px 0;
+}
+.leftbar2 .list li.item .itemTitle i.icon3 {
+  background-position: -58px 0;
+}
+.leftbar2 .list li.item .itemTitle i.icon4 {
+  background-position: -87px 0;
+}
+.leftbar2 .list li.item .itemTitle i.icon5 {
+  background-position: -117px 0;
+}
+.leftbar2 .list li.item .itemTitle i.icon6 {
+  background-position: -146px 0;
+}
+.leftbar2 .list li.item.active a.itemTitle i.icon1,
+.leftbar2 .list li.item:hover a.itemTitle i.icon1 {
+  background-position: 0 -30px;
+}
+.leftbar2 .list li.item.active a.itemTitle i.icon2,
+.leftbar2 .list li.item:hover a.itemTitle i.icon2 {
+  background-position: -30px -30px;
+}
+.leftbar2 .list li.item.active a.itemTitle i.icon3,
+.leftbar2 .list li.item:hover a.itemTitle i.icon3 {
+  background-position: -58px -30px;
+}
+.leftbar2 .list li.item.active a.itemTitle i.icon4,
+.leftbar2 .list li.item:hover a.itemTitle i.icon4 {
+  background-position: -87px -30px;
+}
+.leftbar2 .list li.item.active a.itemTitle i.icon5,
+.leftbar2 .list li.item:hover a.itemTitle i.icon5 {
+  background-position: -117px -30px;
+}
+.leftbar2 .list li.item.active a.itemTitle i.icon6,
+.leftbar2 .list li.item:hover a.itemTitle i.icon6 {
+  background-position: -146px -30px;
+}
+.leftbar4 .title a i {
+  background: url(../img/hdicon1.png) no-repeat;
+  background-position: -90px -32px;
+}
+.leftbar4 .title a span {
+  float: left;
+  margin-left: 18px;
+}
+.leftbar4 .list li.item .itemTitle i {
+  background: url(../img/leftbar4.png) no-repeat;
+  margin: 15px 15px 0 40px;
+}
+.leftbar4 .list li.item .itemTitle i.icon1 {
+  background-position: 0 0;
+}
+.leftbar4 .list li.item .itemTitle i.icon2 {
+  background-position: -28px 0;
+}
+.leftbar4 .list li.item .itemTitle i.icon3 {
+  background-position: -55px 0;
+}
+.leftbar4 .list li.item .itemTitle i.icon4 {
+  background-position: -84px 0;
+}
+.leftbar4 .list li.item .itemTitle i.icon5 {
+  background-position: -111px 0;
+}
+.leftbar4 .list li.item .itemTitle i.icon6 {
+  background-position: -138px 0;
+}
+.leftbar4 .list li.item .itemTitle i.icon7 {
+  background: url(../img/leftbar5.png) no-repeat;
+  background-position: -84px 0;
+}
+.leftbar4 .list li.item.active a.itemTitle i.icon1,
+.leftbar4 .list li.item:hover a.itemTitle i.icon1 {
+  background-position: 0 -30px;
+}
+.leftbar4 .list li.item.active a.itemTitle i.icon2,
+.leftbar4 .list li.item:hover a.itemTitle i.icon2 {
+  background-position: -28px -30px;
+}
+.leftbar4 .list li.item.active a.itemTitle i.icon3,
+.leftbar4 .list li.item:hover a.itemTitle i.icon3 {
+  background-position: -55px -30px;
+}
+.leftbar4 .list li.item.active a.itemTitle i.icon4,
+.leftbar4 .list li.item:hover a.itemTitle i.icon4 {
+  background-position: -84px -30px;
+}
+.leftbar4 .list li.item.active a.itemTitle i.icon5,
+.leftbar4 .list li.item:hover a.itemTitle i.icon5 {
+  background-position: -111px -30px;
+}
+.leftbar4 .list li.item.active a.itemTitle i.icon6,
+.leftbar4 .list li.item:hover a.itemTitle i.icon6 {
+  background-position: -138px -30px;
+}
+.leftbar4 .list li.item.active a.itemTitle i.icon7,
+.leftbar4 .list li.item:hover a.itemTitle i.icon7 {
+  background-position: -84px -32px;
+}
+.footer {
+  min-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0 10px 0;
+  background: #f7fcff;
+  border-top: 1px solid #b1dafa;
+}
+.footer p {
+  line-height: 20px;
+  font-size: 12px;
+  color: #9f9f9f;
+  text-align: center;
+}
+.leftbar5 .list li.item .itemTitle i {
+  background: url(../img/leftbar5.png) no-repeat;
+  margin: 13px 27px 0 25px;
+}
+.leftbar5 .list li.item .itemTitle i.icon1 {
+  background-position: 0 0;
+}
+.leftbar5 .list li.item .itemTitle i.icon2 {
+  background-position: -28px 0;
+}
+.leftbar5 .list li.item .itemTitle i.icon3 {
+  background-position: -56px 0;
+}
+.leftbar5 .list li.item .itemTitle i.icon4 {
+  background-position: -84px 0;
+}
+.leftbar5 .list li.item .itemTitle i.icon5 {
+  background-position: -115px 0;
+}
+.leftbar5 .list li.item .itemTitle i.icon6 {
+  background-position: -147px 0;
+}
+.leftbar5 .list li.item.active a.itemTitle i.icon1,
+.leftbar5 .list li.item:hover a.itemTitle i.icon1 {
+  background-position: 0 -29px;
+}
+.leftbar5 .list li.item.active a.itemTitle i.icon2,
+.leftbar5 .list li.item:hover a.itemTitle i.icon2 {
+  background-position: -28px -29px;
+}
+.leftbar5 .list li.item.active a.itemTitle i.icon3,
+.leftbar5 .list li.item:hover a.itemTitle i.icon3 {
+  background-position: -56px -29px;
+}
+.leftbar5 .list li.item.active a.itemTitle i.icon4,
+.leftbar5 .list li.item:hover a.itemTitle i.icon4 {
+  background-position: -84px -29px;
+}
+.leftbar5 .list li.item.active a.itemTitle i.icon5,
+.leftbar5 .list li.item:hover a.itemTitle i.icon5 {
+  background-position: -115px -29px;
+}
+.leftbar5 .list li.item.active a.itemTitle i.icon6,
+.leftbar5 .list li.item:hover a.itemTitle i.icon6 {
+  background-position: -147px -29px;
+}
+.leftbar6 .list li.item a.itemTitle i {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("../img/leftbar6-icon.png") no-repeat center;
+}
+.leftbar6 .list li.item a.itemTitle i.icon1 {
+  background-position: 0 0;
+}
+.leftbar6 .list li.item a.itemTitle i.icon2 {
+  background-position: 0 -25px;
+}
+.leftbar6 .list li.item a.itemTitle i.icon3 {
+  background-position: 0 -50px;
+}
+.leftbar6 .list li.item a.itemTitle i.icon4 {
+  background-position: 0 -75px;
+}
+.leftbar6 .list li.item a.itemTitle i.icon5 {
+  background-position: 0 -100px;
+}
+.leftbar6 .list li.item:hover .itemTitle:hover .icon1 {
+  background-position: -25px 0;
+}
+.leftbar6 .list li.item:hover .itemTitle:hover .icon2 {
+  background-position: -25px -25px;
+}
+.leftbar6 .list li.item:hover .itemTitle:hover .icon3 {
+  background-position: -25px -50px;
+}
+.leftbar6 .list li.item:hover .itemTitle:hover .icon4 {
+  background-position: -25px -75px;
+}
+.leftbar6 .list li.item:hover .itemTitle:hover .icon5 {
+  background-position: -25px -100px;
+}
+.leftbar6 .list li.item.active a.itemTitle i.icon1 {
+  background-position: -25px 0;
+}
+.leftbar6 .list li.item.active a.itemTitle i.icon2 {
+  background-position: -25px -25px;
+}
+.leftbar6 .list li.item.active a.itemTitle i.icon3 {
+  background-position: -25px -50px;
+}
+.leftbar6 .list li.item.active a.itemTitle i.icon4 {
+  background-position: -25px -75px;
+}
+.leftbar6 .list li.item.active a.itemTitle i.icon5 {
+  background-position: -25px -100px;
+}
+.leftbar3 .list li.item .itemTitle i {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: url(../img/leftbar3.png) no-repeat;
+  margin: 13px 25px 0 25px;
+}
+.leftbar3 .list li.item .itemTitle i.leftbar3-icon1 {
+  background-position: 0 0;
+}
+.leftbar3 .list li.item .itemTitle i.leftbar3-icon2 {
+  background-position: 0px -22px;
+}
+.leftbar3 .list li.item .itemTitle i.leftbar3-icon3 {
+  background-position: 0 -44px;
+}
+.leftbar3 .list li.item .itemTitle i.leftbar3-icon4 {
+  background-position: 0 -66px;
+}
+.leftbar3 .list li.item .itemTitle i.leftbar3-icon5 {
+  background-position: 0 -88px;
+}
+.leftbar3 .list li.item .itemTitle i.leftbar3-icon6 {
+  background-position: 0 -110px;
+}
+.leftbar3 .list li.item .itemTitle i.leftbar3-icon7 {
+  background-position: 0 -132px;
+}
+.leftbar3 .list li.item.active a.itemTitle i.leftbar3-icon1,
+.leftbar3 .list li.item:hover a.itemTitle i.leftbar3-icon1 {
+  background-position: -22px 0;
+}
+.leftbar3 .list li.item.active a.itemTitle i.leftbar3-icon2,
+.leftbar3 .list li.item:hover a.itemTitle i.leftbar3-icon2 {
+  background-position: -22px -22px;
+}
+.leftbar3 .list li.item.active a.itemTitle i.leftbar3-icon3,
+.leftbar3 .list li.item:hover a.itemTitle i.leftbar3-icon3 {
+  background-position: -22px -44px;
+}
+.leftbar3 .list li.item.active a.itemTitle i.leftbar3-icon4,
+.leftbar3 .list li.item:hover a.itemTitle i.leftbar3-icon4 {
+  background-position: -22px -66px;
+}
+.leftbar3 .list li.item.active a.itemTitle i.leftbar3-icon5,
+.leftbar3 .list li.item:hover a.itemTitle i.leftbar3-icon5 {
+  background-position: -22px -88px;
+}
+.leftbar3 .list li.item.active a.itemTitle i.leftbar3-icon6,
+.leftbar3 .list li.item:hover a.itemTitle i.leftbar3-icon6 {
+  background-position: -22px -110px;
+}
+.leftbar3 .list li.item.active a.itemTitle i.leftbar3-icon7,
+.leftbar3 .list li.item:hover a.itemTitle i.leftbar3-icon7 {
+  background-position: -22px -132px;
+}
+.leftbar7 .list li.item .itemTitle i {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: url(../img/leftbar7-icon.png) no-repeat;
+  margin: 13px 25px 0 25px;
+}
+.leftbar7 .list li.item .itemTitle i.leftbar7-icon1 {
+  background-position: 0 0;
+}
+.leftbar7 .list li.item .itemTitle i.leftbar7-icon2 {
+  background-position: 0px -22px;
+}
+.leftbar7 .list li.item .itemTitle i.leftbar7-icon3 {
+  background-position: 0 -44px;
+}
+.leftbar7 .list li.item .itemTitle i.leftbar7-icon4 {
+  background-position: 0 -66px;
+}
+.leftbar7 .list li.item.active a.itemTitle i.leftbar7-icon1,
+.leftbar7 .list li.item:hover a.itemTitle i.leftbar7-icon1 {
+  background-position: -22px 0;
+}
+.leftbar7 .list li.item.active a.itemTitle i.leftbar7-icon2,
+.leftbar7 .list li.item:hover a.itemTitle i.leftbar7-icon2 {
+  background-position: -22px -22px;
+}
+.leftbar7 .list li.item.active a.itemTitle i.leftbar7-icon3,
+.leftbar7 .list li.item:hover a.itemTitle i.leftbar7-icon3 {
+  background-position: -22px -44px;
+}
+.leftbar7 .list li.item.active a.itemTitle i.leftbar7-icon4,
+.leftbar7 .list li.item:hover a.itemTitle i.leftbar7-icon4 {
+  background-position: -22px -66px;
+}

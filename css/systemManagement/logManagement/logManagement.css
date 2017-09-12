@@ -1,0 +1,55 @@
+.content-r {
+  width: calc(100% - 250px);
+  margin-top: 20px;
+}
+.content-r .labelName {
+  display: inline-block;
+  text-align: right;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 0;
+  float: left;
+}
+.content-r .layui-inline {
+  width: 45%;
+  color: #333;
+  font-size: 14px;
+}
+.content-r .layui-form-item .layui-inline {
+  margin-right: 0;
+}
+.content-r .layui-input-block {
+  display: inline-block;
+  margin-left: 0;
+  width: 68%;
+}
+.content-r .layui-form-item .layui-input-inline {
+  margin-right: 0;
+}
+.content-r .layui-input {
+  height: 32px;
+  line-height: 32px;
+  background-color: #f8fcff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #B1DAFA;
+}
+.content-r .layui-btn {
+  width: 96px;
+  height: 32px;
+  line-height: 32px;
+  margin-top: -2px;
+  border: 1px solid #ff9b0e;
+  background: -moz-linear-gradient(to bottom, #ffc319, #ffa019);
+  background: linear-gradient(to bottom, #ffc319, #ffa019);
+  background: #ffa019\9\0;
+  /*ie9*/
+}
+.content-r .icon-sousuo {
+  margin-right: 6px;
+  font-size: 14px;
+}
+.content-r span {
+  font-size: 14px;
+}

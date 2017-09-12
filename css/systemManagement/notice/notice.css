@@ -1,0 +1,214 @@
+.content-r {
+  width: calc(100% - 250px);
+  margin-top: 20px;
+}
+.content-r .labelName {
+  display: inline-block;
+  text-align: right;
+  height: 32px;
+  line-height: 32px;
+  width: 70px;
+  margin-left: 0;
+  float: left;
+}
+.content-r .connector {
+  width: 6%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  height: 32px;
+  line-height: 32px;
+}
+.content-r .layui-edge {
+  border-top-color: #047FE1;
+}
+.content-r .layui-input-inline {
+  display: inline-block;
+  width: 36%;
+  position: relative;
+}
+.content-r .layui-input-inline input {
+  font-size: 12px;
+}
+.content-r .layui-input-inline .date-icon {
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 16px;
+  right: 5px;
+  top: 8px;
+  background-image: url(../../../img/calender.png);
+}
+.content-r .withSmall {
+  width: 45px;
+}
+.content-r .layui-inline {
+  width: 33%;
+  color: #333;
+  font-size: 14px;
+  vertical-align: top;
+}
+.content-r .width32 {
+  width: 31%;
+  padding-left: 2%;
+}
+.content-r .layui-form-item .layui-inline {
+  margin-right: 0;
+}
+.content-r .layui-input-block {
+  display: inline-block;
+  margin-left: 0;
+  vertical-align: middle;
+  width: 78%;
+}
+.content-r .layui-form-item .layui-input-inline {
+  margin-right: 0;
+}
+.content-r .layui-input {
+  height: 32px;
+  line-height: 32px;
+  margin-left: 0;
+  background-color: #f8fcff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #B1DAFA;
+}
+.content-r .layui-btn {
+  width: 96px;
+  height: 32px;
+  border: 1px solid #ff9601;
+  vertical-align: middle;
+  line-height: 32px;
+  margin-left: 10px;
+}
+.content-r .layui-btn .icon-sousuo {
+  margin-right: 6px;
+  font-size: 14px;
+}
+.content-r .layui-btn span {
+  font-size: 14px;
+}
+.content-r .search-btn {
+  background: linear-gradient(to right bottom, #fcc527, #ffb419, #fa950d);
+  background: #fa950d\9\0;
+  /*ie9*/
+  border: 1px solid #ff9601;
+}
+.content-r .add-mess {
+  background: linear-gradient(to right bottom, #3abdfc, #6cb9f4, #237bdc);
+  border: 1px solid #3b94ff;
+  background: #237bdc\9\0;
+  /*ie9*/
+}
+.content-r .tableBox h2 {
+  color: #333;
+  font-size: 12px;
+  height: 38px;
+  line-height: 38px;
+  margin-bottom: 10px;
+}
+.content-r .tableBox .showBox {
+  margin-left: 15px;
+  color: #085dc3;
+  cursor: pointer;
+}
+.content-r .tableBox .bookNum {
+  color: #047fe1;
+}
+.content-r .tableBox .iconfont {
+  padding: 0 5px;
+  color: #7aa6d8;
+  cursor: pointer;
+}
+.content-r .tableBox .iconfont:hover {
+  color: #fe8a31;
+}
+.layui-layer-btn .layui-layer-btn0,
+.layui-layer-btn .layui-layer-btn1 {
+  border-radius: 4px;
+}
+#release-box {
+  display: none;
+}
+.set-box {
+  text-align: center;
+}
+.set-box .tablewrap {
+  height: 300px;
+  overflow: auto;
+}
+.set-box .query {
+  width: 96px;
+  height: 32px;
+  line-height: 32px;
+  background: linear-gradient(to right bottom, #fcc527, #ffb419, #fa950d);
+  background: #fa950d\9\0;
+  /*ie9*/
+  border: 1px solid #ff9601;
+}
+.set-box .query .font-sousuo {
+  font-size: 14px;
+}
+.set-box .query span {
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 32px;
+}
+.set-box .determine {
+  text-align: center;
+  margin: 35px 0;
+  width: 60px;
+  height: 32px;
+  color: #fff;
+  background: #26a0fe;
+  border: 1px solid #047fe1;
+}
+.set-box .layui-inline {
+  width: 50%;
+  height: 32px;
+  margin-right: 0;
+}
+.set-box .layui-input-block {
+  display: inline-block;
+  width: 70%;
+  margin-left: 0;
+  height: 32px;
+}
+.set-box .layui-edge {
+  border-top-color: #047FE1;
+}
+.set-box .set-name {
+  display: inline-block;
+  height: 32px;
+  width: 28%;
+  line-height: 32px;
+  text-align: right;
+}
+.set-box .layui-inline {
+  vertical-align: middle;
+}
+.set-box .layui-input {
+  display: inline-block;
+  height: 32px;
+  margin-left: 0;
+  border-radius: 5px;
+  border: 1px solid #b3daf9;
+  background: #f8fcff;
+}
+.layui-form-checked[lay-skin=primary] i {
+  background-color: #33aaf2;
+  margin-right: 5px;
+  border-color: #2b95e8;
+}
+.layui-form-checkbox[lay-skin=primary]:hover i {
+  border-color: #2b95e8;
+}
+.layui-form-checkbox[lay-skin=primary] i {
+  margin-right: 5px;
+  border-color: #2b95e8;
+}
+td .layui-form-checked[lay-skin=primary] i,
+td .layui-form-checkbox[lay-skin=primary] i {
+  margin-right: 34px;
+}

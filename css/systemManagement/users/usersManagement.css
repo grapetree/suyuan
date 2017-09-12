@@ -1,0 +1,75 @@
+span.marL12 {
+  margin-left: 12px;
+}
+.sel-area {
+  font-size: 14px;
+  padding: 0;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #4b715d;
+}
+.sel-area .sel-left {
+  width: 33.3%;
+}
+.sel-area .sel-left input {
+  width: 70%;
+  height: 32px;
+  border: 1px solid #b2d3c2;
+  border-radius: 4px;
+  outline: none;
+  padding: 0 10px;
+  margin: 0 4px;
+  background: #fefefd;
+}
+.sel-area .btn-area {
+  width: 33.3%;
+  text-align: right;
+}
+.sel-area .btn-area div {
+  padding: 7px 0px;
+  display: inline-block;
+  width: 96px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.sel-area .btn-area div.search {
+  background: linear-gradient(to right bottom, #fcc322, #ffb119, #ff9b14);
+  background: #ff9b14\9\0;
+  /*ie9*/
+  border: 1px solid #ff9601;
+}
+.sel-area .btn-area div.search:hover {
+  color: #eee;
+}
+.sel-area .btn-area div.search i {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  background: url(../../../img/search.png) no-repeat;
+}
+.sel-area .btn-area div.add {
+  background: linear-gradient(to right bottom, #3abefc, #3ca2ec, #227cdb);
+  background: #227cdb\9\0;
+  /*ie9*/
+  border: 1px solid #3b94ff;
+}
+.sel-area .btn-area div.add:hover {
+  color: #eee;
+}
+.con-bottom .iconfont {
+  color: #86aedc;
+}
+.con-bottom .iconfont:hover {
+  color: #fe8b3d;
+}
+.layui-layer-btn .layui-layer-btn0,
+.layui-layer-btn .layui-layer-btn1 {
+  border-radius: 4px;
+}

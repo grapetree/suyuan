@@ -1,0 +1,46 @@
+.main-body {
+  min-height: calc(100vh - 223px);
+}
+.add-wrapper {
+  width: 520px;
+  margin: 0 auto;
+}
+.add-wrapper li {
+  margin-bottom: 26px;
+}
+.add-wrapper li .l-title {
+  font-size: 14px;
+  line-height: 32px;
+  color: #333;
+}
+.add-wrapper li .c-input,
+.add-wrapper li .layui-form-select,
+.add-wrapper li .test-time {
+  width: 430px;
+  height: 30px;
+  line-height: 32px;
+}
+.add-wrapper li .test-time {
+  position: relative;
+}
+.add-wrapper li .test-time input {
+  width: 100%;
+}
+.add-wrapper li .test-time .cal {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 7px;
+  top: 8px;
+  background: url(../../../img/calender.png) no-repeat;
+}
+.save-cancel {
+  text-align: center;
+}
+.save-cancel span {
+  display: inline-block;
+}
+.save-cancel-width {
+  width: 900px;
+  margin: 100px auto 0;
+}

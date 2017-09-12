@@ -1,0 +1,159 @@
+.zree-box.fl {
+  width: 300px;
+  box-sizing: border-box;
+  padding: 0 30px 0;
+}
+.zree-box.fl .ztree-demo {
+  height: 300px;
+  overflow: auto;
+}
+.zree-box.fl .ztree {
+  font-size: 14px;
+}
+.zree-box.fl .ztree li {
+  line-height: 35px;
+}
+.zree-box.fl .ztree li span.button.remove {
+  vertical-align: middle;
+  margin-left: 20px;
+  background-position: 0 -95px;
+}
+.zree-box.fl .ztree li a.curSelectedNode {
+  background: none;
+  border: none;
+}
+.zree-box.fl .ztree li span {
+  font-size: 14px;
+  color: #577399;
+  line-height: 35px;
+}
+.zree-box.fl .ztree li span.button {
+  background: url(../../../img/role-add-icons.png) no-repeat center;
+}
+.zree-box.fl .ztree li span.button.switch {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.zree-box.fl .ztree li span.button.ico_open,
+.zree-box.fl .ztree li span.button.ico_close,
+.zree-box.fl .ztree li span.button.ico_docu {
+  display: none;
+}
+.zree-box.fl .ztree li span.button.roots_open,
+.zree-box.fl .ztree li span.button.bottom_open,
+.zree-box.fl .ztree li span.button.center_open,
+.zree-box.fl .ztree li span.button.root_open {
+  background-position: 0 0;
+}
+.zree-box.fl .ztree li span.button.roots_close,
+.zree-box.fl .ztree li span.button.bottom_close,
+.zree-box.fl .ztree li span.button.center_close,
+.zree-box.fl .ztree li span.button.root_close {
+  background-position: 0 -22px;
+}
+.zree-box.fl .ztree li span.button.bottom_docu,
+.zree-box.fl .ztree li span.button.center_docu {
+  background-position: 0 -75px;
+}
+.zree-box.fl .ztree li span.button.chk {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+.zree-box.fl .ztree li span.button.chk.checkbox_true_full,
+.zree-box.fl .ztree li span.button.chk.checkbox_true_full_focus,
+.zree-box.fl .ztree li span.button.chk.checkbox_true_part,
+.zree-box.fl .ztree li span.button.chk.checkbox_true_part_focus {
+  background-position: 0 -44px;
+}
+.zree-box.fl .ztree li span.button.chk.checkbox_false_part,
+.zree-box.fl .ztree li span.button.chk.checkbox_false_part_focus,
+.zree-box.fl .ztree li span.button.chk.checkbox_false_full,
+.zree-box.fl .ztree li span.button.chk.checkbox_false_full_focus {
+  background-position: 0 -60px;
+}
+.zree-box.fl h2 {
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to right bottom, #3bbffe, #31a6f1, #2077d8);
+  background: #047fe1\9\0;
+  /*ie9*/
+  border: 1px solid #3b94ff;
+}
+.zree-box.fl .ztree-demo {
+  margin-top: 20px;
+}
+.layui-form {
+  border-left: 1px solid #d3e5f5;
+  box-sizing: border-box;
+  width: calc(100% - 300px);
+  padding: 25px 80px 100px;
+  min-height: 600px;
+  margin: 0 auto;
+}
+.layui-form .layui-inline {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.layui-form .form-title {
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  text-align: right;
+  vertical-align: top;
+  width: 120px;
+  font-size: 14px;
+  color: #333;
+}
+.layui-form .required {
+  width: 8%;
+  display: inline-block;
+  text-align: center;
+  color: #ff5353;
+  cursor: pointer;
+}
+.layui-form .layui-form-select .layui-edge {
+  border-top-color: #047fe1;
+}
+.layui-form .layui-input-inline,
+.layui-form .layui-form-select {
+  display: inline-block;
+  width: 70%;
+}
+.layui-form .layui-form-select {
+  margin-left: 4px;
+}
+.layui-form .layui-input,
+.layui-form .layui-textarea {
+  background: #f8fcff;
+  border-radius: 5px;
+  border: 1px solid #b3daf9;
+}
+.layui-form .btn-box {
+  text-align: center;
+  margin-top: 15px;
+}
+.layui-form .btn-box button {
+  width: 96px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 40px;
+}
+.layui-form .btn-box .keep {
+  border: 1px solid #ff9601;
+  background: linear-gradient(to right bottom, #ffc419, #ffb819, #fc9a16);
+  background: #fc9a16\9\0;
+  /*ie9*/
+}
+.layui-form .btn-box .cancel {
+  border: 1px solid #3b94ff;
+  background: linear-gradient(to right bottom, #3abdfc, #30a2ee, #217ada);
+  background: #217ada\9\0;
+  /*ie9*/
+}

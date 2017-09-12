@@ -1,0 +1,126 @@
+.layui-form {
+  width: 508px;
+  margin: 0 auto;
+  text-align: center;
+}
+.layui-form li {
+  margin-bottom: 20px;
+}
+.layui-form span {
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  color: #333;
+  vertical-align: top;
+}
+.layui-form .layui-input {
+  height: 32px;
+  line-height: 32px;
+}
+.layui-form .layui-input,
+.layui-form .layui-textarea {
+  display: inline-block;
+  width: 80%;
+  background: #f8fcff;
+}
+.layui-form .layui-btn {
+  width: 96px;
+  height: 32px;
+  line-height: 32px;
+}
+.layui-form .layui-form-radio .layui-icon {
+  line-height: 32px;
+}
+.layui-form .layui-form-radio span {
+  line-height: 30px;
+}
+.layui-form .layui-form-radio i {
+  color: #44adf0;
+}
+.layui-form .submit {
+  background: linear-gradient(to right bottom, #fec422, #ffb319, #ff9e19);
+  background: #ff9e19\9\0;
+  /*ie9*/
+  border: 1px solid #ff9601;
+}
+.layui-form .keep {
+  background: linear-gradient(to right bottom, #499efd, #398eef, #2376d6);
+  background: #2376d6\9\0;
+  /*ie9*/
+  border: 1px solid #008eff;
+}
+.treeListCon .treeCon {
+  text-align: left;
+  width: 508px;
+  padding: 20px;
+  height: 300px;
+  overflow: auto;
+  margin: 0 auto 30px;
+  border-bottom: 1px solid #9dd5ff;
+}
+.ztree li span.button.remove {
+  vertical-align: middle;
+  height: 14px;
+  width: 14px;
+}
+.ztree {
+  font-size: 14px;
+}
+.ztree li {
+  line-height: 35px;
+}
+.ztree li a.curSelectedNode {
+  background: none;
+  border: none;
+}
+.ztree li span {
+  font-size: 14px;
+  line-height: 35px;
+  color: #577399;
+}
+.ztree li span.button {
+  background: url(../../../img/role-add-icons.png) no-repeat center;
+}
+.ztree li span.button.switch {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.ztree li span.button.ico_open,
+.ztree li span.button.ico_close,
+.ztree li span.button.ico_docu {
+  display: none;
+}
+.ztree li span.button.center_docu,
+.ztree li span.button.bottom_docu {
+  background-position: 0 -75px;
+}
+.ztree li span.button.roots_open,
+.ztree li span.button.bottom_open,
+.ztree li span.button.center_open,
+.ztree li span.button.root_open {
+  background-position: 0 0;
+}
+.ztree li span.button.roots_close,
+.ztree li span.button.bottom_close,
+.ztree li span.button.center_close,
+.ztree li span.button.root_close {
+  background-position: 0 -22px;
+}
+.ztree li span.button.chk {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+.ztree li span.button.chk.checkbox_true_full,
+.ztree li span.button.chk.checkbox_true_full_focus,
+.ztree li span.button.chk.checkbox_true_part,
+.ztree li span.button.chk.checkbox_true_part_focus {
+  background-position: 0 -44px;
+}
+.ztree li span.button.chk.checkbox_false_part,
+.ztree li span.button.chk.checkbox_false_part_focus,
+.ztree li span.button.chk.checkbox_false_full,
+.ztree li span.button.chk.checkbox_false_full_focus {
+  background-position: 0 -60px;
+}

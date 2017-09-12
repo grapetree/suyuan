@@ -1,0 +1,65 @@
+.area-computer {
+  width: 100%;
+  border-bottom: 1px dashed #e1f0fd;
+  margin-bottom: 30px;
+}
+.area-computer li {
+  float: left;
+  padding: 10px 11px;
+  font-size: 14px;
+  line-height: 40px;
+  width: 14.5%;
+  text-align: center;
+  cursor: pointer;
+  height: 100%;
+}
+.area-computer span {
+  display: block;
+}
+.area-computer .circle {
+  border-radius: 100px;
+  margin: 10px 20px;
+  width: 105px;
+  height: 105px;
+}
+.area-computer .circle-num {
+  color: #fff;
+  display: block;
+  width: 96px;
+  padding-top: 30px;
+  line-height: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.area-computer .unit {
+  color: #fff;
+  display: block;
+  font-style: normal;
+}
+.area-computer .circle-type {
+  color: #496d99;
+}
+.area-computer .circle1 {
+  background: linear-gradient(to bottom right, #648eff, #4b72ff);
+  box-shadow: 0 0 0 10px #a3bdff;
+}
+.area-computer .circle2 {
+  background: linear-gradient(to bottom right, #2fa7fc, #3870d7);
+  box-shadow: 0 0 0 10px #88c8f3;
+}
+.area-computer .circle3 {
+  background: linear-gradient(to bottom right, #42b8fd, #24a1f6);
+  box-shadow: 0 0 0 10px #8fcef3;
+}
+.area-computer .circle4 {
+  background: linear-gradient(to bottom right, #25d8de, #35b5fc);
+  box-shadow: 0 0 0 10px #90cff3;
+}
+.area-computer .circle5 {
+  background: linear-gradient(to bottom right, #6dc702, #6cbd0b);
+  box-shadow: 0 0 0 10px #b6df85;
+}
+.area-computer .circle6 {
+  background: linear-gradient(to bottom right, #38c33b, #038c34);
+  box-shadow: 0 0 0 10px #77bb8f;
+}

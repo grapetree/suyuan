@@ -1,0 +1,240 @@
+.btn-group {
+  margin-bottom: 20px;
+}
+.layui-form-checkbox[lay-skin=primary] i {
+  border: 1px solid #9dccfa;
+}
+.layui-form-checked[lay-skin=primary] i {
+  border: 1px solid #047fe1;
+  background: #047fe1;
+}
+.layui-form-checkbox[lay-skin=primary]:hover i {
+  border: 1px solid #047fe1;
+  background: #047fe1;
+}
+.check-all {
+  padding-left: 10px;
+}
+.qualified {
+  color: #2b8ae3;
+}
+.no-qualified {
+  color: #ffa119;
+}
+.icon-chakan {
+  color: #6b9cd4;
+}
+.tablewrap table tbody tr:hover .icon-chakan {
+  color: #26a0fe;
+}
+.details-content {
+  padding: 0 0 0 43px;
+}
+.details-wrapper {
+  border: 1px solid #b3daf9;
+  border-radius: 5px;
+  background: #f8fcff;
+}
+.details-wrapper ul {
+  padding: 25px 60px;
+}
+.details-wrapper ul li {
+  width: 50%;
+  float: left;
+  padding: 12px 0;
+  font-size: 14px;
+}
+.details-wrapper ul li .title {
+  width: 30%;
+  float: left;
+  color: #577399;
+  text-align: left;
+}
+.details-wrapper ul li .text {
+  width: 70%;
+  float: left;
+  color: #333333;
+}
+.details-wrapper ul li .text img {
+  margin-right: 40px;
+}
+.details-wrapper ul li .qualified {
+  color: #2b8ae3;
+}
+.details-wrapper ul li .no-qualified {
+  color: #ffa119;
+}
+.details-wrapper ul li.full-width {
+  width: 100%;
+}
+.details-wrapper ul li.full-width .title {
+  width: 15%;
+}
+.details-wrapper ul li.full-width .text {
+  width: 85%;
+}
+.no-bg {
+  background: none;
+  border: none;
+}
+.back-btn {
+  margin: 56px 0 20px 0;
+  text-align: center;
+}
+.back-btn .add,
+.back-btn .search {
+  display: inline-block;
+}
+.add-wrapper {
+  width: 520px;
+  margin: 0 auto;
+}
+.add-wrapper .textarea-disnone {
+  display: none;
+}
+.add-wrapper .delFJ1 {
+  right: -8px;
+  top: -5px;
+}
+.add-wrapper li {
+  margin-bottom: 26px;
+  height: auto;
+}
+.add-wrapper li .l-title {
+  font-size: 14px;
+  line-height: 32px;
+  color: #333;
+}
+.add-wrapper li .l-title85 {
+  width: 85px;
+  vertical-align: top;
+}
+.add-wrapper li .c-area1 {
+  min-height: 100px;
+  width: 82%;
+  margin-left: 85px;
+  background: #f8fcff;
+}
+.add-wrapper li .c-input,
+.add-wrapper li .layui-form-select,
+.add-wrapper li .test-time {
+  width: 430px;
+  height: 30px;
+  line-height: 32px;
+}
+.add-wrapper li .test-time {
+  position: relative;
+}
+.add-wrapper li .test-time input {
+  width: 100%;
+}
+.add-wrapper li .test-time .cal {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 7px;
+  top: 8px;
+  background: url(../../img/calender.png) no-repeat;
+}
+.save-cancel {
+  text-align: center;
+}
+.save-cancel span {
+  display: inline-block;
+}
+.save-cancel-width {
+  width: 900px;
+  margin: 100px auto 0;
+}
+.line-fenge {
+  border-bottom: 1px solid #9dd5ff;
+}
+.caozuo i {
+  margin: 0 5px;
+  font-size: 18px;
+  color: #6b9cd4;
+}
+.tablewrap table tbody tr:hover .edit {
+  color: #48b400;
+}
+.tablewrap table tbody tr:hover .del {
+  color: #fe7c26;
+}
+.tablewrap table tbody tr:hover .shenhe {
+  color: #63baf9;
+}
+.form-item .report-wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+.form-item .report-wrapper li {
+  width: 48%;
+}
+.form-item .report-wrapper li .l-title {
+  width: 80px;
+  text-align: right;
+  color: #333;
+}
+.form-item .report-wrapper li .c-input,
+.form-item .report-wrapper li .layui-form-select,
+.form-item .report-wrapper li .start {
+  width: 300px;
+  color: #7f7f7f;
+}
+.form-item .report-wrapper li .readonly {
+  border: 1px solid #e0e0e0;
+  background: #e9e9e9;
+  color: #7f7f7f;
+}
+.form-item .report-wrapper li.right-li {
+  float: right;
+}
+.form-item .report-wrapper li.right-li .layui-form-select {
+  float: right;
+}
+.form-item .report-wrapper li.full-width {
+  width: 100%;
+}
+.form-item .report-wrapper li.full-width .beizhu {
+  width: 806px;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid #b3daf9;
+  background: #f8fcff;
+  padding: 0 6px;
+}
+.form-item .report-wrapper li.readonly-li .layui-form-select .layui-input {
+  border: 1px solid #e0e0e0;
+  background: #e9e9e9;
+  color: #7f7f7f;
+}
+.form-item .report-wrapper li.readonly-li .layui-form-select .layui-edge {
+  border-top-color: #b2b2b2;
+}
+.form-item .report-wrapper li.readonly-li .start i {
+  display: none;
+}
+.form-item .report-wrapper li.readonly-li .beizhu {
+  border: 1px solid #e0e0e0;
+  background: #e9e9e9;
+  color: #7f7f7f;
+}
+.shenhe-wrapper {
+  margin: 90px 0 30px 0;
+}
+.layui-form-yj li .l-title {
+  width: 100px;
+}
+.layui-form-yj li .layui-form-select {
+  width: 400px;
+}
+.layui-form-yj li .c-input,
+.layui-form-yj li .test-time {
+  width: 400px;
+}
+.layui-form-yj li li.textarea textarea {
+  width: 400px;
+}
+.ins {
+  margin-top: 30px;
+}

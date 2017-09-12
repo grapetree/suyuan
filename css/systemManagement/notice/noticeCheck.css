@@ -1,0 +1,66 @@
+.notice-content {
+  width: 820px;
+  margin: 0 auto;
+}
+.notice-content .notice-title {
+  text-align: center;
+  font-size: 16px;
+  height: 110px;
+  line-height: 110px;
+}
+.notice-content .notice-text p {
+  text-indent: 24px;
+  margin-bottom: 30px;
+  line-height: 26px;
+  color: #666;
+}
+.notice-content .notice-mark .markL {
+  margin-bottom: 30px;
+}
+.file-content {
+  width: 700px;
+  margin: 50px auto 56px;
+  padding: 26px 60px;
+  border: 1px solid #b3daf9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #f8fcff;
+}
+.file-content .range {
+  margin-bottom: 8px;
+}
+.file-content .range-title,
+.file-content .files-title {
+  color: #577399;
+  margin-bottom: 8px;
+}
+.file-content .range-text {
+  line-height: 30px;
+  color: #8a9cb6;
+}
+.file-content .files-text li {
+  width: 50%;
+}
+.file-content .files-text img {
+  margin-right: 20px;
+}
+.file-content .files-text span {
+  display: inline-block;
+  width: 240px;
+  color: #4b7abe;
+}
+.layui-form-checkbox[lay-skin=primary] i {
+  border: 1px solid #9dccfa;
+}
+.layui-form-checked[lay-skin=primary] i {
+  border: 1px solid #047fe1;
+  background: #047fe1;
+}
+.layui-form-checkbox[lay-skin=primary]:hover i {
+  border: 1px solid #047fe1;
+  background: #047fe1;
+}
+.check-all {
+  padding-left: 10px;
+}

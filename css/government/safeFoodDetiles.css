@@ -1,0 +1,38 @@
+.blacklist-items {
+  width: 100%;
+}
+.blacklist-items .detiles-info-box {
+  padding: 20px;
+  background: #f8fcff;
+}
+.detiles-info {
+  width: 100%;
+  margin-left: 40px;
+}
+.detiles-info .detiles-info-items {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.detiles-info .detiles-info-items b {
+  display: inline-block;
+  width: 130px;
+  padding-right: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #577399;
+}
+.detiles-info .detiles-info-items b.notop {
+  position: relative;
+  top: -45px;
+}
+.detiles-info .detiles-info-items span {
+  display: inline-block;
+  width: 30%;
+  font-weight: bold;
+}
+.detiles-info .detiles-info-items img {
+  margin-right: 10px;
+}
+.blacklist-candel a {
+  background: #F7B824;
+}

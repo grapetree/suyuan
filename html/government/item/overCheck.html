@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN">
+<html>
+
+<head>
+    <title>组织机构</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="../../../libs/layui/css/layui.css" />
+    <link rel="stylesheet" href="../../../icon/iconfont.css" />
+    <link rel="stylesheet" href="../../../css/common.css" />
+    <link rel="stylesheet" href="../../../css/layout.css" />
+    <link rel="stylesheet" href="../../../css/form.css" />
+    <link rel="stylesheet" href="../../../css/table.css" />
+    <link rel="stylesheet" href="../../../css/government/blacklistDetiles.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-box cf"><a class="header-left" href=""><i class="logo"></i><span>农产品追溯监管与服务系统</span><b>政府端</b></a>
+            <div class="header-right">
+                <div class="user-info"><i class="user-logo"></i><span class="user-name">政府001</span></div>
+                <div class="person-set"><i class="person-set-logo"></i><a class="person-set-tit" href="../../forgotPassword.html">修改密码</a></div><a class="exit" href="../../login.html"><i class="person-set-logo"></i><span class="person-set-tit">退出            </span></a></div>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-list cf">
+            <li class="first"><a href="../../index/index/dataStatistics.html"><i class="produce-manage"></i><span>首页</span></a></li>
+            <!--li-->
+            <!--    a(href='../../retrospectiveSubject/plantingEnterprise/plantingEnterprise.html')-->
+            <!--        i.package-manage-->
+            <!--        span 追溯主体-->
+            <li><a href="../../industrialChainSupervision/plantingEnterprise/plantingEnterprise.html"><i class="ciculate-manage"></i><span>追溯监管</span></a></li>
+            <li><a href="../../qualitySafetyInspectionSupervision/companyOwnCheck/companyOwnCheck.html"><i class="sell-manage"></i><span>质量安全检测</span></a></li>
+            <li><a href="../../government/item/blacklist.html"><i class="quality-manage"></i><span>政府监督</span></a></li>
+            <li><a href="../../dataStatistics/inputUseStatistics/inputUseStatistics.html"><i class="data-statistics"></i><span>数据统计</span></a></li>
+            <li><a href="../../systemManagement/notice/notice.html"><i class="system-manage"></i><span>系统管理</span></a></li>
+        </ul>
+    </div>
+    <div class="poster">
+        <div class="poster-box">
+            <div class="poster-item"><i class="poster-icon"></i><span class="poster-text">通知：近日，农业部办公厅、财政部国家农业综合开发办公室联合发布了《关于推进农业全产业链开发创新示范工作的通知》。</span></div>
+            <div class="poster-item"><i class="poster-icon"></i><span class="poster-text">通知：近日，农业部办公厅、财政部国家农业综合开发办公室联合发布了《关于推进农业全产业链开发创新示范工作的通知》。</span></div>
+        </div>
+    </div>
+    <div class="main-body cf approval-wrap">
+        <ul class="station cf overs">
+            <li class="four"><span class="green">状态：</span><span class="green">已结束</span></li>
+        </ul>
+        <div class="blacklist-items">
+            <h2 class="detiles-title">产品召回情况登记</h2>
+            <div class="detiles-info-box cf">
+                <div class="tab-content">
+                    <div class="con-top form-item">
+                        <form class="layui-form">
+                            <ul class="cf">
+                                <li class="oneThird w29"><span class="l-title">召回地点：</span><input class="c-input" type="text" /></li>
+                                <li class="oneThird cf w29"><span class="l-title fl">召回时间：</span>
+                                    <div class="start fl"><input class="c-input" type="text" onclick="layui.laydate({elem: this,  istime: true, format: 'YYYY-MM-DD '})" /><i class="cal"></i></div><span class="line fl">&nbsp&nbsp-&nbsp&nbsp</span>
+                                    <div class="end fl"><input class="c-input" type="text" onclick="layui.laydate({elem: this,  istime: true, format: 'YYYY-MM-DD '})" /><i class="cal"></i></div>
+                                </li>
+                                <li class="oneThird w29"><span class="l-title w99">负责人：</span><input class="c-input" type="text" /></li>
+                                <li class="oneThird cf inbl w10"><span class="search"><i class="iconfont icon-sousuo"></i><i>&nbsp&nbsp查询</i></span></li>
+                            </ul>
+                        </form>
+                    </div>
+                    <div class="con-bottom">
+                        <div class="tablewrap nomargin">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>序号</th>
+                                        <th>召回地点</th>
+                                        <th>产品名称</th>
+                                        <th>召回时间</th>
+                                        <th>产品数量</th>
+                                        <th>负责人</th>
+                                        <th>备注</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>北京</td>
+                                        <td>红富士苹果</td>
+                                        <td>2017-07-04</td>
+                                        <td>12345</td>
+                                        <td>张三</td>
+                                        <td>广东新农人农业科技股份有限公司主动召回中</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blacklist-items">
+            <h2 class="detiles-title">召回基本信息</h2>
+            <div class="detiles-info-box cf">
+                <div class="detiles-info fl detiles-info-recall">
+                    <p class="detiles-info-items"><b>地点：</b><span>北京</span><b>时限：</b><span>2017-01-02——2017-01-09</span></p>
+                    <p class="detiles-info-items"><b>问题产品数量：</b><span>100袋</span><b>负责人：</b><span>张三</span></p>
+                    <p class="detiles-info-items"><b>召回方式：</b><span>主动召回</span><b>联系电话：</b><span>13812345678</span></p>
+                </div>
+                <div class="detiles-info fl detiles-info-recall detiles-info-recalls">
+                    <p class="detiles-info-items"><b>地点：</b><span>北京</span><b>时限：</b><span>2017-01-02——2017-01-09</span></p>
+                    <p class="detiles-info-items"><b>问题产品数量：</b><span>100袋</span><b>负责人：</b><span>张三</span></p>
+                    <p class="detiles-info-items"><b>召回方式：</b><span>主动召回</span><b>联系电话：</b><span>13812345678</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blacklist-candel blacklist-candel-recall"><span>查看全部召回信息<b></b></span><a href="./recallRegulation.html">返回</a></div>
+</body>
+<script src="../../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&amp;ak=Bd55XdcjoedHhlwaLoGGeIGKxA3EneDV"></script>
+<script src="../../../libs/jquery.nicescroll.min.js"></script>
+<script src="../../../libs/layui/layui.js"></script>
+<script src="../../../js/common.js"></script>
+<script src="../../../js/government/recallCheck.js"></script>
+
+</html>

@@ -1,0 +1,231 @@
+.form-item .select-box,
+.form-item2 .select-box {
+  width: 20%;
+}
+.form-item .select-box .layui-input-inline,
+.form-item2 .select-box .layui-input-inline {
+  width: 60%;
+}
+.form-item .fr,
+.form-item2 .fr {
+  float: right;
+}
+.form-item .cal,
+.form-item2 .cal {
+  position: absolute;
+  top: 7px;
+  right: 5px;
+  width: 16px;
+  display: block;
+  height: 16px;
+  background: url(../../img/calender.png);
+}
+.form-item .sel-area,
+.form-item2 .sel-area {
+  padding: 30px 25px 15px;
+  background: #e5f4ff;
+  border-radius: 5px;
+  border: 1px solid #9dd5ff;
+}
+.form-item .radio-box,
+.form-item2 .radio-box,
+.form-item .radio-box2,
+.form-item2 .radio-box2 {
+  width: 76%;
+  text-align: right;
+}
+.form-item .search,
+.form-item2 .search {
+  display: inline-block;
+}
+.form-item .radio-box3,
+.form-item2 .radio-box3 {
+  text-align: right;
+  width: 24%;
+  float: right;
+}
+.form-item .layui-form-radio span,
+.form-item2 .layui-form-radio span,
+.form-item .layui-form-radio i,
+.form-item2 .layui-form-radio i,
+.form-item .layui-form-radio:hover i,
+.form-item2 .layui-form-radio:hover i,
+.form-item .layui-form-radio:hover span,
+.form-item2 .layui-form-radio:hover span {
+  color: #577399!important;
+}
+.form-item .to-time,
+.form-item2 .to-time {
+  display: inline-block;
+  padding: 0 5px;
+  color: #577399;
+}
+.form-item li .layui-form-select,
+.form-item2 li .layui-form-select {
+  width: 100%;
+}
+.form-item li .layui-form-radio,
+.form-item2 li .layui-form-radio {
+  margin-right: 0;
+  margin-top: 0;
+}
+.form-item2 .select-box {
+  width: 18%;
+}
+.form-item2 .select-box .layui-input-inline {
+  width: 45%;
+}
+.form-item2 .radio-box {
+  width: 64%;
+}
+.form-item2 .w36 {
+  width: 18.5%;
+}
+.container .myChart {
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+}
+.container2 {
+  widows: 100%;
+}
+.container2 .use-title {
+  margin-left: 15px;
+  border-bottom: 1px solid #8eccfd;
+}
+.container2 .use-title li {
+  border-radius: 20px;
+  height: 32px;
+  margin: 0 15px -1px -15px;
+  color: #007de2;
+  line-height: 32px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  width: 132px;
+  cursor: pointer;
+}
+.container2 .use-title li.active {
+  background: #23a9ff;
+  background: linear-gradient(to bottom right, #7baeff, #3d74e4);
+  color: #fff;
+}
+.container2 .echarts-box1 .myChart1,
+.container2 .echarts-box1 .myChart2 {
+  margin-bottom: 35px;
+  width: 50%;
+  text-align: center;
+  height: 300px;
+}
+.container2 .myChart3 {
+  width: 100%;
+  height: 400px;
+}
+.circle {
+  width: 200px;
+  box-sizing: border-box;
+  padding-top: 55px;
+  height: 200px;
+  margin: 0 70px;
+  background: url(../../img/circle-bg.png) no-repeat center;
+  background-size: cover;
+}
+.text-gradient {
+  display: inline-block;
+  color: orange;
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#ff5700), to(#ff9f00));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.myChart1-one .circle-num,
+.myChart1-two .circle-num,
+.myChart4-one .circle-num,
+.myChart4-two .circle-num,
+.myChart4-three .circle-num {
+  font-size: 35px;
+  width: 200px;
+  font-weight: bold;
+  display: block;
+  color: #ff8100;
+}
+.myChart1-one .circle-time,
+.myChart1-two .circle-time,
+.myChart4-one .circle-time,
+.myChart4-two .circle-time,
+.myChart4-three .circle-time {
+  font-size: 14px;
+  color: #4b715d;
+  margin-left: 8px;
+}
+.myChart1-one .circle-type,
+.myChart1-two .circle-type,
+.myChart4-one .circle-type,
+.myChart4-two .circle-type,
+.myChart4-three .circle-type {
+  color: #496d99;
+}
+.myChart1 .myChart1-one,
+.myChart1 .myChart1-two {
+  padding-top: 55px;
+  box-sizing: border-box;
+  width: 50%;
+}
+.myChart1 .circle {
+  margin: 0 30px;
+}
+.blacklist-items .myChart4-one,
+.blacklist-items .myChart4-two,
+.blacklist-items .myChart4-three {
+  height: 300px;
+  width: 33.3%;
+  text-align: center;
+}
+.form-item2 li .layui-form-radio:last-child {
+  margin-right: 0;
+}
+.container3 .myChart5,
+.container3 .myChart6 {
+  margin: 20px 0;
+  width: 50%;
+  height: 400px;
+}
+.container3 .myChart5 {
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 95px;
+  padding-left: 130px;
+}
+.container3 .myChart7 {
+  width: 100%;
+  height: 400px;
+}
+.container4 .echarts-box1 .myChart8 {
+  width: 30%;
+  height: 300px;
+  padding: 50px 8%;
+  position: relative;
+}
+.container4 .echarts-box1 .myChart9 {
+  height: 400px;
+  width: 54%;
+}
+.container4 .echarts-box1 .myChart9 h3 {
+  color: #577399;
+  font-weight: bold;
+  text-align: center;
+}
+.container4 .echarts-box1 .myChart9 svg {
+  width: 100%;
+  height: 100%;
+}
+.container4 .echarts-box1 .circles {
+  stroke: rgba(255, 255, 0, 0.5);
+  stroke-width: 10px;
+}
+.container4 .echarts-box2 .myChart10 {
+  width: 100%;
+  height: 400px;
+}
+.bg-pic {
+  background: url(../../img/none-data.png) no-repeat center;
+}

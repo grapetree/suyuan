@@ -1,0 +1,91 @@
+.layui-form {
+  padding: 27px 52px;
+}
+.layui-form .layui-inline {
+  margin-bottom: 20px;
+  float: left;
+  width: 50%;
+}
+.layui-form span {
+  display: inline-block;
+  height: 32px;
+  width: 100px;
+  line-height: 32px;
+  color: #333;
+  vertical-align: top;
+  text-align: right;
+}
+.layui-form .layui-input {
+  height: 32px;
+  line-height: 32px;
+  display: inline-block;
+  width: 59%;
+  background: #f8fcff;
+  margin-left: 1%;
+  border-radius: 5px;
+  border: 1px solid #b3daf9;
+}
+.layui-form .lauui-radio {
+  margin-bottom: 14px;
+}
+.layui-form .lauui-radio input {
+  height: 32px;
+  line-height: 32px;
+}
+.layui-form .lauui-radio .sex {
+  text-align: right;
+}
+.layui-form .lauui-radio span {
+  text-align: left;
+}
+.layui-form .layui-input-inline .layui-input {
+  width: 100%;
+}
+.layui-form .layui-form-radio i {
+  color: #329be6;
+  line-height: 32px;
+  margin-left: 10px;
+}
+.layui-form .layui-input-inline {
+  width: 59%;
+}
+.layui-form .mark {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.layui-form .mark span {
+  width: 100px;
+}
+.layui-form .mark .textarea-title {
+  width: 107px;
+}
+.layui-form .mark .layui-textarea {
+  display: inline-block;
+  background: #f8fcff;
+  width: 79.4%;
+}
+.layui-form .select {
+  width: 100%;
+  text-align: center;
+}
+.layui-form .select span {
+  width: 96px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.layui-form .select .submit {
+  border: 1px solid #ff9601;
+  background: linear-gradient(to right bottom, #ffc218, #ffb619, #ff9e19);
+  background: #ffb619\9\0;
+  /* ie9 */
+}
+.layui-form .select .cancel {
+  margin-left: 30px;
+  border: 1px solid #008eff;
+  background: linear-gradient(to right bottom, #469dfe, #3c8ff0, #2377d7);
+  background: #3c8ff0\9\0;
+  /* ie9 */
+}
