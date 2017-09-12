@@ -129,6 +129,9 @@
   background: linear-gradient(to bottom right, #4a9efe, #2175d5);
   cursor: pointer;
 }
+.content-r h2 .showBox:hover{
+  color:#eee;
+}
 .content-r .tableBox .table-box {
   width: 100%;
 }
@@ -174,7 +177,7 @@
   background: #6ed3ff;
   background: linear-gradient(to bottom right, #6ed3ff, #41b7fb);
 }
-.content-r .select-type ul li.active {
+.content-r .select-type ul li.active,.content-r .select-type ul li.hover {
   box-shadow: none;
   background: #989a9f;
 }
