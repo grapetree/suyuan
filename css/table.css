@@ -23,7 +23,7 @@
   border-bottom: 1px solid #ffe9bd;
   height: 40px;
 }
-.tablewrap table tbody tr:last-child:hover {
+.tablewrap table tbody tr:last-child:hover{
   border-bottom: none;
 }
 .tablewrap table tbody tr td {
