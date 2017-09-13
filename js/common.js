@@ -11,8 +11,8 @@ function changeNavTo(navTxt, lb1, lb2) {
     $('.leftbar>ul>li').each(function(){
         if($(this).find('span').text() === lb1){
             $(this).addClass('active').siblings().removeClass('active');
-            $(this).children("ul").slideDown(1000);
-            $(this).siblings().children("ul").slideUp();
+            $(this).children("ul").show();
+            $(this).siblings().children("ul").hide();
         }
     });
 
