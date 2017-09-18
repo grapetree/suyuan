@@ -15,12 +15,12 @@ span.marL12 {
 .sel-area .sel-left input {
   width: 70%;
   height: 32px;
-  border: 1px solid #b2d3c2;
+  border: 1px solid #b1dafa;
   border-radius: 4px;
   outline: none;
   padding: 0 10px;
   margin: 0 4px;
-  background: #fefefd;
+  background: #f8fcff;
 }
 .sel-area .btn-area {
   width: 33.3%;
